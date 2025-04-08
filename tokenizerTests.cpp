@@ -15,8 +15,6 @@ TEST_CASE("tokenMaker Tests"){
     CHECK(a != b);
     CHECK(b != c);
     CHECK(a == c);
-    cout << a << " " << endl;
-    cout << b << " " << endl;
     }
 
     SUBCASE("Value Check"){
